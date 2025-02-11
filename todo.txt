@@ -1,0 +1,6 @@
+Hỗ trợ progress bar cho các thao tác copy lớn
+Thêm chức năng nén/giải nén files
+Hiển thị tree view cho cấu trúc thư mục
+Tính năng batch operations (xử lý nhiều files cùng lúc)
+File permissions management
+Disk usage analysis

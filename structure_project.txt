@@ -1,0 +1,33 @@
+hinq/
+├── cmd/
+│   └── hinq/
+│       └── main.go                 # Entry point
+├── internal/
+│   ├── cmd/                        # Command implementations
+│   │   ├── root.go                # Root command
+│   │   ├── list.go                # List command
+│   │   ├── copy.go                # Copy command
+│   │   ├── move.go                # Move command
+│   │   ├── delete.go              # Delete command
+│   │   ├── mkdir.go               # Mkdir command
+│   │   └── search.go              # Search command
+│   ├── core/                      # Core business logic
+│   │   ├── file/
+│   │   │   ├── file.go           # File operations
+│   │   │   └── file_test.go
+│   │   └── search/
+│   │       ├── search.go         # Search operations
+│   │       └── search_test.go
+│   ├── utils/                     # Utility functions
+│   │   ├── logger/
+│   │   │   └── logger.go
+│   │   └── validator/
+│   │       └── validator.go
+│   └── config/                    # Configuration
+│       └── config.go
+├── pkg/                          # Public packages
+│   └── types/
+│       └── types.go
+├── go.mod
+├── go.sum
+└── README.md
